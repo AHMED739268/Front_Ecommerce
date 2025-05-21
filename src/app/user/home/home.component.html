@@ -1,0 +1,8 @@
+<div class="container-fluid">
+  <app-header   (searchChange)="handleSearch($event)"></app-header>
+  <div class="d-flex gap-4 mt-4">
+    <app-filter (filterChange)="onFilterChange($event)"></app-filter>
+    <app-product-grid [filters]="currentFilters" [searchTerm]="receivedSearch"></app-product-grid>
+  </div>
+  <app-footer></app-footer>
+</div>
