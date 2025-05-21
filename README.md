@@ -73,3 +73,26 @@ ecommerce-frontend/
 │       └── images/
 ├── angular.json
 └── environment.ts
+
+⚙️ Installation & Setup
+📋 Prerequisites
+
+    Node.js & npm installed
+
+    Angular CLI installed (npm install -g @angular/cli)
+
+    Backend API is running (see backend setup)
+
+
+git clone https://github.com/AHMED739268/Front_Ecommerce.git
+cd ecommerce-frontend
+
+# Install dependencies
+npm install
+
+# Run the app
+ng serve
+
+🚀 Build for Production
+
+ng build --configuration=production
